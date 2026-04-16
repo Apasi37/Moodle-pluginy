@@ -7,6 +7,12 @@
   as real providers, but returns predefined or deterministic outputs. This makes it useful
   for testing integration, debugging features, and avoiding API costs during development.
 </p>
+<p>
+  Plugin <code>aiprovider_mock</code> je testovacia implementácia AI providera,
+  ktorá simuluje odpovede bez volania externého API.
+  Používa rovnaké rozhranie ako reálni provideri, ale vracia preddefinované alebo deterministické odpovede.
+  Vďaka tomu je vhodný na testovanie integrácie, ladenie funkcionality a elimináciu nákladov počas vývoja.
+</p>
 
 <h3>Block Plugin (<code>ai_helper</code>)</h3>
 <p>
@@ -15,4 +21,11 @@
   generated responses directly within the LMS. It connects to the AI subsystem, whether
   using a real provider or the mock provider, and demonstrates how AI features can be
   integrated into the user interface.
+</p>
+<p>
+  Plugin <code>ai_helper</code> je komponent používateľského rozhrania v Moodle,
+  ktorý poskytuje jednoduché chatové rozhranie pre interakciu s AI.
+  Používatelia môžu zadávať prompty a priamo v LMS získavať generované odpovede.
+  Plugin sa pripája na AI subsystém (reálny alebo mock provider) a demonštruje,
+  ako je možné AI funkcionalitu integrovať do používateľského rozhrania.
 </p>
