@@ -4,13 +4,13 @@
 <p>
   The <code>aiprovider_mock</code> plugin is a testing implementation of an AI provider
   that simulates responses without calling any external API. It follows the same interface
-  as real providers, but returns predefined or deterministic outputs. This makes it useful
+  as real providers, but returns predefined outputs. This makes it useful
   for testing integration, debugging features, and avoiding API costs during development.
 </p>
 <p>
   Plugin <code>aiprovider_mock</code> je testovacia implementácia AI providera,
   ktorá simuluje odpovede bez volania externého API.
-  Používa rovnaké rozhranie ako reálni provideri, ale vracia preddefinované alebo deterministické odpovede.
+  Používa rovnaké rozhranie ako reálni provideri, ale vracia preddefinované odpovede.
   Vďaka tomu je vhodný na testovanie integrácie, ladenie funkcionality a elimináciu nákladov počas vývoja.
 </p>
 
